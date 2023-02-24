@@ -17,8 +17,8 @@ public class MathCalculator {
     public static double sumAll(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
-                    +subtract(first, second)
-                        +divide(first, second);
+                    + subtract(first, second)
+                        + divide(first, second);
     }
 
     public static void main(String[] args) {
