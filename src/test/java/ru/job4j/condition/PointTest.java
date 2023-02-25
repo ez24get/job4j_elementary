@@ -16,7 +16,7 @@ public class PointTest {
     }
 
     @Test
-    public void when5_0to3_0then2() {
+    public void when50to30then2() {
         double expected = 2;
         int x1 = 5;
         int y1 = 0;
@@ -27,7 +27,7 @@ public class PointTest {
     }
 
     @Test
-    public void when12_3to2_34then32_57() {
+    public void when123to234then3257() {
         double expected = 32.57299494980466;
         int x1 = 12;
         int y1 = 3;
@@ -38,7 +38,7 @@ public class PointTest {
     }
 
     @Test
-    public void when26_31to1_64then41_40() {
+    public void when2631to164then4140() {
         double expected = 41.400483088968905;
         int x1 = 26;
         int y1 = 31;
@@ -47,8 +47,9 @@ public class PointTest {
         double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
     }
+
     @Test
-    public void when1_1to2_2then1_41() {
+    public void when11to22then141() {
         double expected = 1.4142135623730951;
         int x1 = 1;
         int y1 = 1;
