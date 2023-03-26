@@ -48,4 +48,13 @@ public class PointTest {
         double dist = a.distance(b);
         Assert.assertEquals(expected, dist, 0.01);
     }
+
+    @Test
+    public void when3dThen8dot54() {
+        double expected = 8.54;
+        Point b = new Point(0, 2, 3);
+        Point c = new Point(6, 3, 9);
+        double dist = c.distance3d(b);
+        Assert.assertEquals(expected, dist, 0.01);
+    }
 }
