@@ -5,8 +5,8 @@ import static java.lang.Math.pow;
 
 public class Point {
 
-    private final int x;
-    private final int y;
+    private int x;
+    private int y;
     private int z;
 
     public Point(int first, int second) {
